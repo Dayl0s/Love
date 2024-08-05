@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8C8DC;
+    background-image: url("./img/geeks_logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    background: white;
+    width: 800px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.header_text {
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 20px;
+    height: 20px;
+    background-color: deeppink;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+img {
+    width: 400px;
+}

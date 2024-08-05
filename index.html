@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h1 class="header_text">Нажми на носик<span class="heart">&lt;3</span></h1>
+        </div>
+        <div class="gif_container">
+            <img
+                src="./img/cute-cat.gif"
+                alt="Cute animated illustration"
+                id="catImg"
+            />
+        </div>
+        <div class="buttons">
+            <button class="btn" id="noseButton" onclick="nextPage()"></button>
+        </div>
+    </div>
+    <script>
+        function nextPage() {
+            window.location.href = "yes.html";
+        }
+    </script>
+</body>
+</html>
